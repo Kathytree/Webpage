@@ -2,6 +2,15 @@ h1{
     text-align: center;
 }
 body{
-    background-color: #CCC7B9;
+    background-color: #FFDAB9;
     color: #17183B;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+hr{
+    height: 2px;
+    background-color: #A11692;
+    border-color: #FF4F79;
+    border-width: 2px;
 }
