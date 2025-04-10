@@ -1,14 +1,17 @@
-h1{
+.topBar h1{
     text-align: center;
 }
+.topBar{
+    overflow: hidden;
+    background-color: #D6D3F0;
+}
 body{
+    margin: 0;
     background-color: #FFDAB9;
     color: #17183B;
-    margin-left: 40px;
-    margin-right: 40px;
-
 }
 hr{
+    margin: 0;
     height: 2px;
     background-color: #A11692;
     border-color: #FF4F79;
