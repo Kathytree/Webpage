@@ -8,29 +8,19 @@
 </head>
 <body>
 <main>
-    <div class="topBar">
-        <h1>The Muddy Dress</h1>
-        <a href="#">Home</a>
-        <a href="#">Gallery</a>
-        <a href="#">Order</a>
-        <a href="#">About</a>
-        <a
-           href="javascript:void(0);"
-           class="icon"
-           onclick="toggleMenu()"
-           >&#9776;
-        </a>
-    </div>
-    <script>
-       function toggleMenu(){
-        let topBar = document.getElementById("myTopBar")
-        topBar.className = topBar.className === "topBar" ?
-                            "topBar responsive" : "topBar";
-       }
-    </script>
+    <nav class="topBar">
+        <div class="muddyLogo">
+        <h1>The Muddy Dress</h1></div>
+        <ul class="top-links">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Gallery</a></li>
+           <li><a href="#">Order</a></li>
+           <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <script src="code.js"></script>
     <hr>
     <h2>Gallery</h2>    
-    <script src="code.js"></script>
 </main>
 </body>
 <footer>Thank you Mr. Tyler, you're awesome</footer>

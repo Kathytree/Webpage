@@ -1,10 +1,33 @@
-.topBar h1{
+.topBar {
+    background-color: #FFB49A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.muddyLogo{
     text-align: center;
+    margin-left: 45%;
 }
-.topBar{
-    overflow: hidden;
-    background-color: #D6D3F0;
+
+.top-links{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
+.top-links li{
+    margin-left: 20px;
+}
+.top-links a{
+        display: inline;
+        color: #FF4F79;
+        text-decoration: none;
+}
+.top-links a:hover{
+    color: #A11692;
+}
+
 body{
     margin: 0;
     background-color: #FFDAB9;
