@@ -8,6 +8,7 @@
 .muddyLogo{
     text-align: center;
     margin-left: 45%;
+    color: #01295F;
 }
 
 .top-links{
@@ -27,8 +28,10 @@
 .top-links a:hover{
     color: #A11692;
 }
-
+@font-face{ font-family: LucySaid; src: url('Lucy Said Ok Personal Use.ttf');}
 body{
+    font-size: 175%;
+    font-family: LucySaid;
     margin: 0;
     background-color: #FFDAB9;
     color: #17183B;
