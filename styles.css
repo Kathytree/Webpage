@@ -1,14 +1,17 @@
+@font-face{ font-family: LucySaid; src: url('Lucy Said Ok Personal Use.ttf');}
 .topBar {
     background-color: #FFB49A;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 4.5px 10px;
+    font-family: LucySaid;
 }
 .muddyLogo{
+    font-size: 175%;
     text-align: center;
     margin-left: 45%;
-    color: #01295F;
+    color: #B62E50;
 }
 
 .top-links{
@@ -24,14 +27,15 @@
         display: inline;
         color: #FF4F79;
         text-decoration: none;
+        font-size: 150%;
 }
 .top-links a:hover{
     color: #A11692;
 }
-@font-face{ font-family: LucySaid; src: url('Lucy Said Ok Personal Use.ttf');}
+@font-face{ font-family: brillant; src: url('brillant.otf');}
 body{
-    font-size: 175%;
-    font-family: LucySaid;
+    font-size: 125%;
+    font-family: brillant;
     margin: 0;
     background-color: #FFDAB9;
     color: #17183B;
