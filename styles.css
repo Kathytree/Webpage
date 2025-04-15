@@ -47,3 +47,18 @@ hr{
     border-color: #FF4F79;
     border-width: 2px;
 }
+footer{
+    font-size: 50%;
+}
+.order body{
+    font-size: 125%;
+    font-family: brillant;
+    margin: 0;
+    background-color: #FFDAB9;
+    color: #17183B;
+}
+.order h3{
+    display: inline;
+    margin-top: 0px;
+    font-size: 65%;
+}
