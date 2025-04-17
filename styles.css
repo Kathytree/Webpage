@@ -44,10 +44,10 @@ body{
 }
 hr{
     margin: 0;
-    height: 2px;
+    height: 7px;
     background-color: #A11692;
     border-color: #FF4F79;
-    border-width: 2px;
+    border-width: 3px;
 }
 footer{
     font-size: 50%;
@@ -65,11 +65,18 @@ footer{
     font-size: 65%;
 }
 .aboutP {
-    font-size: 21px;
+    font-size: 23px;
     margin-left: 12%;
-    margin-right: 37%;
+    margin-right: 60%;
 }
 h2{
     margin-left: 3.5%;
     font-size: 34px;
+}
+.aboutHr {
+    margin-top: 60px;
+    height: 34px;
+    background-color: #A11692;
+    border-color: #FF4F79;
+    border-width: 7px;
 }
