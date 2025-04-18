@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>The Muddy Dress</title>
-    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="https://i.pinimg.com/736x/63/e1/a6/63e1a6175dbe3889dc5883d207460fc8.jpg">
 </head>
@@ -24,14 +24,17 @@
     <hr>
     <h2>Most Popular:</h2>    
     <!--!!!!!Begin Carousel here!!!!!
-    - Gather 8 images
-    - build carousel itself
-    - format and center 
     - link to orders on click..?-->
-    <div class="main-carousel">
-        <div class="carousel-cell">...</div>
-        <div class="carousel-cell">...</div>
-        <div class="carousel-cell">...</div>
+    <div class="main-carousel"
+         data-flickity='{"wrapAround": true, "autoPlay": 5000}'
+        >
+        <div class="carousel-cell">
+            <img src="paleGreenBall.png">
+        </div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
     </div>
 
 </main>

@@ -1,7 +1,7 @@
 @font-face{ font-family: LucySaid; src: url('Lucy Said Ok Personal Use.ttf');}
 .topBar {
     background-color: #FFB49A;
-    max-height: 65px;
+    height: 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,7 +9,7 @@
     font-family: LucySaid;
 }
 .muddyLogo{
-    font-size: 56px;
+    font-size: 50px;
     text-align: center;
     margin-left: 35%;
     color: #B62E50;
@@ -60,9 +60,8 @@ footer{
     color: #17183B;
 }
 .order h3{
-    display: inline;
-    margin-top: 0px;
-    font-size: 65%;
+    margin-left: 20px;
+    font-size: 85%;
 }
 .aboutP {
     font-size: 23px;
@@ -81,4 +80,39 @@ h2{
     border-width: 7px;
     display: block;
     background-image:url('vines.PNG') ;
+}
+
+/*FLickity CSS*/
+/*data-flickity='{"autoplay": true}'*/
+* { box-sizing: border-box; }
+
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 25.5%;
+  height: 200px;
+  margin-right: 10px;
+  background: #FFB49A;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  color: #FFB49A;
+}
+.carousel-cell img{
+    display: block;
+    width: 85%;
+    height: 190px;
 }
