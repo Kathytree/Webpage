@@ -76,7 +76,9 @@ h2{
 .aboutHr {
     margin-top: 60px;
     height: 34px;
-    background-color: #A11692;
-    border-color: #FF4F79;
+    background-color: #FF4F79;
+    border-color: #A11692;
     border-width: 7px;
+    display: block;
+    background-image:url('vines.PNG') ;
 }
