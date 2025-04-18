@@ -39,8 +39,8 @@ body{
     font-size: 125%;
     font-family: RusticRoadway;
     margin: 0;
-    background-color: #FFDAB9;
-    color: #BC6E01;
+    background-color: #fadfbb;
+    color: #F56285;
 }
 hr{
     margin: 0;
@@ -95,7 +95,7 @@ h2{
   width: 21%;
   height: 250px;
   margin-right: 10px;
-  background: #FFB49A;
+  background: #f5f5dc;
   border-radius: 5px;
   counter-increment: gallery-cell;
   display: flex;
@@ -109,7 +109,7 @@ h2{
   text-align: center;
   content: counter(gallery-cell);
   line-height: 250px;
-  color: #FFB49A;
+  color: #FFE9C3;
 }
 .carousel-cell img{
     padding-right: 13px;
@@ -117,3 +117,22 @@ h2{
     width: 340px;
     height: 240px;
 }
+/*dots*/
+
+
+.flickity-page-dots {
+    bottom: -15px;
+  }
+  /* circles */
+  .flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: .75;
+    background: transparent;
+    border: 2px solid #F56285;
+  }
+  /* fill-in selected dot */
+  .flickity-page-dots .dot.is-selected {
+    background: #A11692;
+    opacity: .8;
+  }
