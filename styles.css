@@ -92,8 +92,8 @@ h2{
 }
 
 .carousel-cell {
-  width: 25.5%;
-  height: 200px;
+  width: 21%;
+  height: 250px;
   margin-right: 10px;
   background: #FFB49A;
   border-radius: 5px;
@@ -108,11 +108,12 @@ h2{
   display: block;
   text-align: center;
   content: counter(gallery-cell);
-  line-height: 200px;
+  line-height: 250px;
   color: #FFB49A;
 }
 .carousel-cell img{
-    display: block;
-    width: 85%;
-    height: 190px;
+    padding-right: 13px;
+    display: flex;
+    width: 340px;
+    height: 240px;
 }
