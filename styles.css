@@ -63,6 +63,10 @@ footer{
     margin-left: 20px;
     font-size: 85%;
 }
+.basic label{
+    display: block;
+    margin: 0.5em 0;
+}
 .aboutP {
     font-size: 23px;
     margin-left: 12%;

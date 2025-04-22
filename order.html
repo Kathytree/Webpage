@@ -21,5 +21,28 @@
         <script src="code.js"></script>
         <hr>
         <h2>Order form:</h2><h3>See bottom for instruction on how to measure.</h3>
-    </main>
+        <form method="post" class="basic"><fieldset>
+            <legend>Personal Information</legend>
+            <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+            <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+            <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+          </fieldset>
+          <fieldset>
+            <legend>What Dress Style Would You Like?</legend>
+            <label for="referrer">
+                <select id="referrer" name="referrer">
+                  <option value="">(select one)</option>
+                  <option value="1">Flowing-Through-the-Garden</option>
+                  <option value="2">Queen's-Comet</option>
+                  <option value="3">Mode-par-Prophetie</option>
+                  <option value="4">Fleur-de-Lis</option>
+                  <select id="dressimg"></select>
+                </select>
+              </label>
+          </fieldset>
+          <fieldset></fieldset>
+          <fieldset></fieldset>
+          <input type="submit" value="Order">
+        </form>
+        </main>
     </body>
