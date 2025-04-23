@@ -20,7 +20,8 @@
         </nav>
         <script src="code.js"></script>
         <hr>
-        <h2>Order form:</h2><h3>See bottom for instruction on how to measure.</h3>
+        <h2>Order form:</h2>
+        <div class="changeFont"><h3>See bottom for instruction on how to measure.</h3>
         <form method="post" class="basic"><fieldset>
             <legend>Personal Information</legend>
             <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
@@ -29,7 +30,7 @@
           </fieldset>
           <fieldset>
             <legend>What Dress Style Would You Like?</legend>
-            <label for="referrer">
+            <label for="referrer" class="referrer">
                 <select id="referrer" name="referrer">
                   <option value="">(select one)</option>
                   <option value="1">Flowing-Through-the-Garden</option>
@@ -44,5 +45,20 @@
           <fieldset></fieldset>
           <input type="submit" value="Order">
         </form>
-        </main>
+        <p class="instruction">Height: Stand straight against a wall or doorframe. Measure from the top of your head to your feet.</p>
+
+        <p class="instruction">Bust/Chest: Wrap the measuring tape around the fullest part of your chest, ensuring it’s parallel to the ground.</p>
+          
+        <p class="instruction">Waist: Find your natural waistline by bending to one side; this creates a crease. Measure around this point without pulling the tape too tight.</p>
+          
+        <p class="instruction">Hips: Measure around the widest part of your hips and ensure the tape remains horizontal.</p>
+          
+        <p class="instruction">Shoulder Width: Measure straight across from the tip of one shoulder to the tip of the other.</p>
+  
+        <p class="instruction">Arm Length: Start from the point where your shoulder meets your arm. Measure down to your wrist bone, following the curve of your arm.</p>
+          
+        <p class="instruction">Inseam: Measure from the top of your inner thigh down to your ankle bone.</p>
+          
+        <p class="instruction">Circumference (e.g., neck, arms, thighs): Wrap the tape around these areas snugly, but not tightly.</p>
+      </div></main>
     </body>

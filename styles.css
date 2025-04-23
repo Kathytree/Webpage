@@ -42,6 +42,15 @@ body{
     background-color: #fadfbb;
     color: #F56285;
 }
+@font-face{ font-family: WastedVindey; src: url('Wasted-Vindey.ttf');}
+.changeFont{
+    font-family: WastedVindey;
+    font-size: larger;
+}
+.about .changeFont{
+    font-family: WastedVindey;
+    font-size: x-large;
+}
 hr{
     margin: 0;
     height: 7px;
@@ -63,14 +72,43 @@ footer{
     margin-left: 20px;
     font-size: 85%;
 }
+.instruction{
+    display: block;
+    margin-left: 1.2%;
+}
 .basic label{
     display: block;
     margin: 0.5em 0;
 }
+fieldset {
+    padding: 15px;
+  }
+input, textarea {
+    background-color: #f5f5dc;
+    border: 1px solid #F56285;
+    color: #ffffff;
+}
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 26px;
+    border-color: #F56285;
+    border-radius: 5px;
+    border-width: 3px;
+    font-family: WastedVindey;
+    color:#A11692;
+  }
 .aboutP {
     font-size: 23px;
     margin-left: 12%;
     margin-right: 60%;
+}
+.aboutimg{
+    width: 12%;
+    height: 12%;
+    float: right;
 }
 h2{
     margin-left: 3.5%;
