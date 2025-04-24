@@ -86,7 +86,7 @@ fieldset {
 input, textarea {
     background-color: #f5f5dc;
     border: 1px solid #F56285;
-    color: #ffffff;
+    color: brown;
 }
 input[type="submit"] {
     display: block;
@@ -100,6 +100,7 @@ input[type="submit"] {
     font-family: WastedVindey;
     color:#A11692;
   }
+
 .aboutP {
     font-size: 30px;
     margin-left: 12%;
