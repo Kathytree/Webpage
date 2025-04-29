@@ -100,7 +100,53 @@ input[type="submit"] {
     font-family: WastedVindey;
     color:#A11692;
   }
-
+ 
+div.gallery {
+    border: 4px solid white;
+  }
+  
+  div.gallery:hover {
+    border: 4px solid pink;
+  }
+  
+  div.gallery img {
+    width: 250px;
+    height: 360px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+box-sizing:border-box;
+}
+  
+  .responsive {
+    padding: 10px;
+    float: left;
+    width: 277px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 .aboutP {
     font-size: 30px;
     margin-left: 12%;
