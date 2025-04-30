@@ -10,8 +10,8 @@
 }
 .muddyLogo{
     font-size: 50px;
-    text-align: center;
-    margin-left: 35%;
+    align-items: center;
+    display: inline-flex;
     color: #B62E50;
 }
 
@@ -75,6 +75,7 @@ footer{
 .instruction{
     display: block;
     margin-left: 1.2%;
+    font-weight: bold;
 }
 .basic label{
     display: block;
@@ -87,6 +88,7 @@ input, textarea {
     background-color: #f5f5dc;
     border: 1px solid #F56285;
     color: brown;
+    display: inline-flex;
 }
 input[type="submit"] {
     display: block;
@@ -171,9 +173,8 @@ h2{
     width:100%;
     height: 34px;
     background-color: #FF4F79;
-    border-color: #A11692;
+    border-color: #FFB49A;
     border-width: 7px;
-    background-image:url('vines.PNG') ;
 }
 
 /*FLickity CSS*/

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Order a Dress</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="icon.png">
+    <link rel="shortcut icon" href="about/icon.png">
 </head>
 <body>
     <main class="order">
@@ -22,88 +22,118 @@
         <hr>
         <h2>Order form:</h2>
         <div class="changeFont"><h3>See bottom for instruction on how to measure.</h3>
-        <form method="post" class="basic"><fieldset>
+        <form method="post" class="basic" onsubmit="tada(event)"><fieldset>
             <legend>Personal Information</legend>
             <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
             <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
             <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
           </fieldset>
-          <fieldset>
+          <!--Color drop down menu-->
+          <fieldset> 
             <legend>What Dress Style Would You Like?</legend>
-            <label for="multi" class="referrer">
+            <label for="multi" class="referrer"> Multicolor:
                 <select id="multi" name="multi">
                   <option value="">(select Multi Color)</option>
-                  <option value="1">Flowing-Through-the-Garden</option>
-                  <option value="2">Queen's-Comet</option>
-                  <option value="3">Mode-par-Prophetie</option>
-                  <option value="4">Fleur-de-Lis</option>
+                  <option value="1">Caged</option>
+                  <option value="2">Garden Wall</option>
+                  <option value="3">Gilded Glass</option>
+                  <option value="4">Pangea Drapes</option>
+                  <option value="5">Peacock Majesty</option>
+                  <option value="6">Robecca Steam</option>
                 </select>
               </label>
-              <label for="red-pink" class="referrer">
+              <label for="red-pink" class="referrer"> Red-Pink:
                 <select id="red-pink" name="red-pink">
                   <option value="">(select Red/Pink)</option>
-                  <option value="1">Flowing-Through-the-Garden</option>
-                  <option value="2">Queen's-Comet</option>
-                  <option value="3">Mode-par-Prophetie</option>
-                  <option value="4">Fleur-de-Lis</option>                
+                  <option value="1">Arachnid Empress</option>
+                  <option value="2">Creeping Roses</option>
+                  <option value="3">Fleur de Lis</option>
+                  <option value="4">Rose lily in Bloom</option>
+                  <option value="5">Rouge Reign</option>
+                  <option value="6">Rosette</option>
+
                 </select>
               </label>
-              <label for="red-pink" class="referrer">
+              <label for="yello" class="referrer"> Yellow:
                 <select id="yellow" name="yellow">
                   <option value="">(select Yellow)</option>
-                  <option value="1">Flowing-Through-the-Garden</option>
-                  <option value="2">Queen's-Comet</option>
-                  <option value="3">Mode-par-Prophetie</option>
-                  <option value="4">Fleur-de-Lis</option>                
+                  <option value="1">Belle of the Ball</option>
+                  <option value="2">Crepuscular Ray</option>
+                  <option value="3">Ray of Gold</option>
+                  <option value="4">Seams Golden</option>   
+                  <option value="5">Shining like Gold</option>                
+                  <option value="6">Weaved from Light</option>                
+
                 </select>
               </label>
-                <label for="red-pink" class="referrer">
+                <label for="green" class="referrer"> Green:
                 <select id="green" name="green">
                   <option value="">(select Green)</option>
-                  <option value="1">Flowing-Through-the-Garden</option>
-                  <option value="2">Queen's-Comet</option>
-                  <option value="3">Mode-par-Prophetie</option>
-                  <option value="4">Fleur-de-Lis</option>                
+                  <option value="1">Flowing thru the Garden</option>
+                  <option value="2">Cinderella but Green</option>
+                  <option value="3">Covered in Moss</option>
+                  <option value="4">Rainforest Ruler</option>      
+                  <option value="5">Sage and Smoke</option>                
+          
                 </select>
               </label>
-                <label for="red-pink" class="referrer">
+                <label for="blue" class="referrer"> Blue:
                 <select id="blue" name="blue">
                   <option value="">(select Blue)</option>
-                  <option value="1">Flowing-Through-the-Garden</option>
-                  <option value="2">Queen's-Comet</option>
-                  <option value="3">Mode-par-Prophetie</option>
-                  <option value="4">Fleur-de-Lis</option>                
+                  <option value="1">Dripping in Stars</option>
+                  <option value="2">Jellyfish Swish</option>
+                  <option value="3">Lady Nimbus</option>
+                  <option value="4">Queen's Comet</option>
+                  <option value="5">Sea Navigator</option>
+                  <option value="6">Soiree Satin</option>
+
                 </select>
               </label>
-                <label for="multi" class="referrer">
+                <label for="purple" class="referrer"> Purple:
                 <select id="purple" name="purple">
                   <option value="">(select Purple)</option>
-                  <option value="1">Flowing-Through-the-Garden</option>
-                  <option value="2">Queen's-Comet</option>
-                  <option value="3">Mode-par-Prophetie</option>
-                  <option value="4">Fleur-de-Lis</option>                
+                  <option value="1">Czarina Crystal</option>
+                  <option value="2">Heather's Sweater</option>
+                  <option value="3">Let your Hair Down</option>
+                  <option value="4">Monarch Matriarch</option>
+                  <option value="5">Sunrise Pond</option>
+                  <option value="6">Violet Calla-lily</option>
+         
                 </select>
               </label>
-                <label for="multi" class="referrer">
+                <label for="black" class="referrer"> Black:
                 <select id="black" name="black">
                   <option value="">(select Black)</option>
-                  <option value="1">Flowing-Through-the-Garden</option>
-                  <option value="2">Queen's-Comet</option>
-                  <option value="3">Mode-par-Prophetie</option>
-                  <option value="4">Fleur-de-Lis</option>                
+                  <option value="1">Billows of Smoke</option>
+                  <option value="2">Bursting thru the Seams</option>
+                  <option value="3">Draped in Night</option>
+                  <option value="4">Nyx</option>
                 </select>
               </label>
-                <label for="multi" class="referrer">
+                <label for="white" class="referrer"> White:
                 <select id="white" name="white">
                   <option value="">(select White)</option>
-                  <option value="1">Flowing-Through-the-Garden</option>
-                  <option value="2">Queen's-Comet</option>
-                  <option value="3">Mode-par-Prophetie</option>
-                  <option value="4">Fleur-de-Lis</option>                
+                  <option value="1">Bathed n Baby's Breath</option>
+                  <option value="2">Burst of Lanvender</option>
+                  <option value="3">Cupid</option>
+                  <option value="4">Five-Tier Buttercream</option>
+                  <option value="5">Mermaid Bride</option>
+                  <option value="6">Pouring down light</option>
+             
                 </select>
               </label>
           </fieldset>
-          <fieldset></fieldset>
+          <fieldset>
+            <legend>Measurements</legend>
+            <label for="height">Enter Your Height(cm): <input id="height" type="number" required /></label>
+            <label for="bust-chest">Enter Your Bust/Chest(cm): <input id="bust-chest" type="number" required /></label>
+            <label for="waist">Enter Your Waist(cm): <input id="waist" type="number" required /></label>
+            <label for="hips">Enter Your Hips(cm): <input id="hips" type="number" required /></label>
+            <label for="shoulder">Enter Your Shoulder Width(cm): <input id="shoulder" type="number" required /></label>
+            <label for="arm">Enter Your Arm Length(cm): <input id="arm" type="number" required /></label>
+            <label for="inseam">Enter Your Inseam(cm): <input id="inseam" type="number" required /></label>
+            <label for="circum">Enter Your Arm Circumference(cm): <input id="circum" type="number" required /></label>
+          </fieldset>
           <fieldset></fieldset>
           <input type="submit" value="Order">
         </form>
@@ -121,6 +151,6 @@
           
         <p class="instruction">Inseam: Measure from the top of your inner thigh down to your ankle bone.</p>
           
-        <p class="instruction">Circumference (e.g., neck, arms, thighs): Wrap the tape around these areas snugly, but not tightly.</p>
+        <p class="instruction">Arm Circumference: Wrap the tape around these areas snugly, but not tightly.</p>
       </div></main>
     </body>
