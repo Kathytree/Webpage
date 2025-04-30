@@ -58,14 +58,19 @@ hr{
     border-color: #FF4F79;
     border-width: 3px;
 }
-footer{
-    font-size: 100%;
-}
 .smedia{
   display: inline;
 }
 .smedia img{
-  width: 15px;
+  width: 65px;
+  height: 65px;
+}
+.smediat{
+  display: inline;
+}
+.smediat img{
+  width: 40px;
+  height: 40px;
 }
 .thanks{
   font-size: 80%;
@@ -74,7 +79,7 @@ footer{
     font-size: 125%;
     font-family: brillant;
     margin: 0;
-    background-color: #FFDAB9;
+    background-color: #33261b;
     color: #17183B;
 }
 .order h3{
@@ -175,56 +180,56 @@ box-sizing:border-box;
     justify-content: center;
 }
 .aboutO{
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 12%;
   text-align: left;
   display: flex;
   align-items: center;
 }
 .aboutO img{
-  min-width: auto;
+  width: 480px;
   margin-left: 35%;
   margin-right: 75px;
   display: inline-flex;
   justify-content: center;
 }
 .aboutM{
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 12%;
   text-align: left;
   display: flex;
   align-items: center;
 }
 .aboutM img{
-  width: 41.5%;
+  width: 480px;
   margin-left: 35%;
   margin-right: 75px;
   display: inline-flex;
   justify-content: center;
 }
 .aboutS1{
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 12%;
   text-align: left;
   display: flex;
   align-items: center;
 }
 .aboutS1 img{
-  width: 56.5%;
+  width: 480px;
   margin-left: 35%;
   margin-right: 75px;
   display: inline-flex;
   justify-content: center;
 }
 .aboutS2{
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 12%;
   text-align: left;
   display: flex;
   align-items: center;
 }
 .aboutS2 img{
-  width: 65.5%;
+  width: 480px;
   margin-left: 35%;
   margin-right: 75px;
   display: inline-flex;
