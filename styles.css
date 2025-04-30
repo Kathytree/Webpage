@@ -59,7 +59,16 @@ hr{
     border-width: 3px;
 }
 footer{
-    font-size: 50%;
+    font-size: 100%;
+}
+.smedia{
+  display: inline;
+}
+.smedia img{
+  width: 15px;
+}
+.thanks{
+  font-size: 80%;
 }
 .order body{
     font-size: 125%;
@@ -261,7 +270,7 @@ h2{
   text-align: center;
   content: counter(gallery-cell);
   line-height: 250px;
-  color: #FFE9C3;
+  color: #FAC8B7;
 }
 .carousel-cell img{
     padding-right: 13px;
