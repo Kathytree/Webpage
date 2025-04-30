@@ -102,6 +102,7 @@ input[type="submit"] {
     font-family: WastedVindey;
     color:#A11692;
   }
+  
  
 div.gallery {
     border: 4px solid white;
@@ -163,6 +164,62 @@ box-sizing:border-box;
     margin-right: 75px;
     display: inline-flex;
     justify-content: center;
+}
+.aboutO{
+  font-size: 30px;
+  margin-left: 12%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.aboutO img{
+  min-width: auto;
+  margin-left: 35%;
+  margin-right: 75px;
+  display: inline-flex;
+  justify-content: center;
+}
+.aboutM{
+  font-size: 30px;
+  margin-left: 12%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.aboutM img{
+  width: 41.5%;
+  margin-left: 35%;
+  margin-right: 75px;
+  display: inline-flex;
+  justify-content: center;
+}
+.aboutS1{
+  font-size: 30px;
+  margin-left: 12%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.aboutS1 img{
+  width: 56.5%;
+  margin-left: 35%;
+  margin-right: 75px;
+  display: inline-flex;
+  justify-content: center;
+}
+.aboutS2{
+  font-size: 30px;
+  margin-left: 12%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.aboutS2 img{
+  width: 65.5%;
+  margin-left: 35%;
+  margin-right: 75px;
+  display: inline-flex;
+  justify-content: center;
 }
 h2{
     margin-left: 3.5%;
