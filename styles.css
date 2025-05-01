@@ -60,6 +60,11 @@ hr{
 }
 .smedia{
   display: inline;
+  font-size: large;
+}
+.smedia a{
+  color:#F56285;
+  text-decoration: none;
 }
 .smedia img{
   width: 65px;
@@ -74,6 +79,7 @@ hr{
 }
 .thanks{
   font-size: 80%;
+  display: inline;
 }
 .order body{
     font-size: 125%;
@@ -302,3 +308,151 @@ h2{
     background: #A11692;
     opacity: .8;
   }
+
+  /*Calendar CSS*/
+
+/* Calendar container */
+.calendar-container {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Calendar header */
+.calendar-header {
+    background: linear-gradient(90deg, #614385 0%, #516395 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.calendar-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Days of week */
+.weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background: #f0f0f0;
+    padding: 10px 0;
+}
+
+.weekdays div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #614385;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Calendar grid */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+    border-top: 1px solid #ddd;
+}
+
+.calendar-day {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    position: relative;
+    min-height: 80px;
+}
+
+.calendar-day:nth-child(7n) {
+    border-right: none;
+}
+
+.date-number {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Event styles */
+.event {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    color: #48246D;
+    font-weight: bold;
+    margin-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.event.knights {
+    background-color: rgba(255, 154, 139, 0.8);
+}
+
+.event.mythic {
+    background-color: rgba(255, 106, 136, 0.8);
+}
+
+.event.enchanted {
+    background-color: rgba(255, 211, 106, 0.8);
+}
+
+.event.heroic {
+    background-color: rgba(255, 142, 83, 0.8);
+}
+
+.event.summer {
+    background-color: rgba(97, 67, 133, 0.8);
+    color: white;
+}
+
+/* Calendar legend */
+.calendar-legend {
+    background: linear-gradient(90deg, #FF9A8B, #FF6A88, #FF8E53);
+    padding: 10px;
+    text-align: center;
+    color: #48246D;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Month indicator */
+.month-indicator {
+    grid-column: span 7;
+    background: rgba(97, 67, 133, 0.1);
+    padding: 5px;
+    text-align: center;
+    color: #614385;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .calendar-container {
+        max-width: 100%;
+    }
+    
+    .calendar-header h1 {
+        font-size: 20px;
+    }
+    
+    .weekdays div {
+        font-size: 12px;
+    }
+    
+    .event {
+        font-size: 8px;
+    }
+}
+.changeFonth{
+  font-family: WastedVindey;
+  font-size: larger;
+  padding-left: 30%;
+  padding-top: 100px;
+}
