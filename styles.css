@@ -314,7 +314,7 @@ h2{
 /* Calendar container */
 .calendar-container {
     width: 100%;
-    max-width: 800px;
+    max-width: 860px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -330,7 +330,7 @@ h2{
 }
 
 .calendar-header h1 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -372,7 +372,7 @@ h2{
 }
 
 .date-number {
-    font-size: 14px;
+    font-size: 12px;
     color: #666;
     margin-bottom: 5px;
 }
@@ -381,7 +381,7 @@ h2{
 .event {
     border-radius: 5px;
     padding: 5px;
-    font-size: 10px;
+    font-size: 14px;
     color: #48246D;
     font-weight: bold;
     margin-bottom: 3px;
@@ -447,7 +447,7 @@ h2{
     }
     
     .event {
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 .changeFonth{
