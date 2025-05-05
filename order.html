@@ -22,13 +22,13 @@
         <hr>
         <h2>Order form:</h2>
         <div class="changeFont"><h3>See bottom for instruction on how to measure.</h3>
-        <form method="post" class="basic" onsubmit="tada(event)"><fieldset>
+        <form method="post" class="basic" onsubmit="tada(event)"><fieldset class="p">
             <legend>Personal Information</legend>
             <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
             <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
             <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
           </fieldset>
-          <fieldset>          <legend>Mailing Address</legend>
+          <fieldset class="p">          <legend>Mailing Address</legend>
             <label for="mailing">Enter Your Street Address: <input id="mailing" type="text" required /></label>
             <label for="city">Enter Your City: <input id="city" type="text" required /></label>
             <label for="code">Enter Your Postal Code: <input id="code" type="text" required /></label>
@@ -88,9 +88,9 @@
               </select>
             </label></fieldset>
           <!--Color drop down menu-->
-          <fieldset> 
+          <fieldset class="p"> 
             <legend>What Dress Style Would You Like?</legend>
-            <label for="multi" class="referrer"> Multicolor:
+            <label for="multi" class="referrer"> <p>Multicolor:</p>
                 <select id="multi" name="multi">
                   <option value="">(select Multi Color)</option>
                   <option value="1">Caged</option>
@@ -101,7 +101,7 @@
                   <option value="6">Robecca Steam</option>
                 </select>
               </label>
-              <label for="red-pink" class="referrer"> Red-Pink:
+              <label for="red-pink" class="referrer"> <p>Red-Pink:</p>
                 <select id="red-pink" name="red-pink">
                   <option value="">(select Red/Pink)</option>
                   <option value="1">Arachnid Empress</option>
@@ -113,7 +113,7 @@
 
                 </select>
               </label>
-              <label for="yello" class="referrer"> Yellow:
+              <label for="yello" class="referrer"> <p>Yellow:</p>
                 <select id="yellow" name="yellow">
                   <option value="">(select Yellow)</option>
                   <option value="1">Belle of the Ball</option>
@@ -125,7 +125,7 @@
 
                 </select>
               </label>
-                <label for="green" class="referrer"> Green:
+                <label for="green" class="referrer"> <p>Green:</p>
                 <select id="green" name="green">
                   <option value="">(select Green)</option>
                   <option value="1">Flowing thru the Garden</option>
@@ -136,7 +136,7 @@
           
                 </select>
               </label>
-                <label for="blue" class="referrer"> Blue:
+                <label for="blue" class="referrer"> <p>Blue:</p>
                 <select id="blue" name="blue">
                   <option value="">(select Blue)</option>
                   <option value="1">Dripping in Stars</option>
@@ -148,7 +148,7 @@
 
                 </select>
               </label>
-                <label for="purple" class="referrer"> Purple:
+                <label for="purple" class="referrer"> <p>Purple:</p>
                 <select id="purple" name="purple">
                   <option value="">(select Purple)</option>
                   <option value="1">Czarina Crystal</option>
@@ -160,7 +160,7 @@
          
                 </select>
               </label>
-                <label for="black" class="referrer"> Black:
+                <label for="black" class="referrer"> <p>Black:</p>
                 <select id="black" name="black">
                   <option value="">(select Black)</option>
                   <option value="1">Billows of Smoke</option>
@@ -169,7 +169,7 @@
                   <option value="4">Nyx</option>
                 </select>
               </label>
-                <label for="white" class="referrer"> White:
+                <label for="white" class="referrer"> <p>White:</p>
                 <select id="white" name="white">
                   <option value="">(select White)</option>
                   <option value="1">Bathed n Baby's Breath</option>
@@ -181,7 +181,7 @@
                 </select>
               </label>
           </fieldset>
-          <fieldset>
+          <fieldset class="p">
             <legend>Measurements</legend>
             <label for="height">Enter Your Height(cm): <input id="height" type="number" required /></label>
             <label for="bust-chest">Enter Your Bust/Chest(cm): <input id="bust-chest" type="number" required /></label>
