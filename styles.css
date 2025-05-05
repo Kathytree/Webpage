@@ -35,17 +35,38 @@
     color: #A11692;
 }
 @font-face{ font-family: RusticRoadway; src: url('RusticRoadWay.otf');}
-body{
-    font-size: 145%;
+.home{
+    font-size: 125%;
     font-family: RusticRoadway;
     margin: 0;
     background-color: #fadfbb;
     color: #F56285;
 }
+.aboutbod{
+  font-size: 155%;
+  font-family: RusticRoadway;
+  margin: 0;
+  background-color: #fadfbb;
+  color: #F56285;
+}
+.order{
+  font-size: 145%;
+  font-family: RusticRoadway;
+  margin: 0;
+  background-color: #fadfbb;
+  color: #F56285;
+}
+.galbod{
+  font-size: 125%;
+  font-family: RusticRoadway;
+  margin: 0;
+  background-color: #fadfbb;
+  color: #F56285;
+}
 @font-face{ font-family: WastedVindey; src: url('Wasted-Vindey.ttf');}
 .changeFont{
     font-family: WastedVindey;
-    font-size:x-large
+    font-size:x-large;
 }
 .about .changeFont{
     font-family: WastedVindey;
@@ -101,11 +122,11 @@ hr{
     margin: 0.5em 0;
 }
 fieldset {
-    padding-left: 45px;
+    padding-left: 35px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 15px;
-
+    font-size: larger;
   }
   .p p{
     padding-left: 15px;
@@ -115,13 +136,14 @@ input, textarea {
     border: 1px solid #F56285;
     color: brown;
     display: grid;
-    grid-auto-columns: auto;
 }
 input, select{
   background-color: #f5f5dc;
   border: 1px solid #F56285;
   color: brown;
   display: grid;
+  padding: none;
+  font-size: large;
 }
 input[type="submit"] {
     display: block;
