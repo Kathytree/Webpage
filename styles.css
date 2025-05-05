@@ -9,7 +9,7 @@
     font-family: LucySaid;
 }
 .muddyLogo{
-    font-size: 50px;
+    font-size: 68px;
     align-items: center;
     display: inline-flex;
     color: #B62E50;
@@ -29,14 +29,14 @@
         display: inline;
         color: #FF4F79;
         text-decoration: none;
-        font-size: 145%;
+        font-size: 155%;
 }
 .top-links a:hover{
     color: #A11692;
 }
 @font-face{ font-family: RusticRoadway; src: url('RusticRoadWay.otf');}
 body{
-    font-size: 125%;
+    font-size: 145%;
     font-family: RusticRoadway;
     margin: 0;
     background-color: #fadfbb;
@@ -45,11 +45,11 @@ body{
 @font-face{ font-family: WastedVindey; src: url('Wasted-Vindey.ttf');}
 .changeFont{
     font-family: WastedVindey;
-    font-size: larger;
+    font-size:x-large
 }
 .about .changeFont{
     font-family: WastedVindey;
-    font-size: x-large;
+    font-size: 115%;
 }
 hr{
     margin: 0;
@@ -82,11 +82,10 @@ hr{
   display: inline;
 }
 .order body{
-    font-size: 125%;
+    font-size: 145%;
     font-family: brillant;
     margin: 0;
-    background-color: #33261b;
-    color: #17183B;
+    color: #B62E50;
 }
 .order h3{
     margin-left: 20px;
@@ -108,7 +107,14 @@ input, textarea {
     background-color: #f5f5dc;
     border: 1px solid #F56285;
     color: brown;
-    display: inline-flex;
+    display: grid;
+    grid-auto-columns: auto;
+}
+input, select{
+  background-color: #f5f5dc;
+  border: 1px solid #F56285;
+  color: brown;
+  display: grid;
 }
 input[type="submit"] {
     display: block;
@@ -243,7 +249,7 @@ box-sizing:border-box;
 }
 h2{
     margin-left: 3.5%;
-    font-size: 34px;
+    font-size: 48px;
 }
 .aboutHr {
     margin-top: 60px;
